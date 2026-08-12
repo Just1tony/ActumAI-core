@@ -1,0 +1,9 @@
+files:
+  - path: kodeks_morski.md
+    sha256_16: ed0c19db809832d9
+    source_pdf: D20011545Lj.pdf
+    jurisdiction: PL
+    category: code
+    language: pl
+    title: "Kodeks morski"
+    last_consolidated: "2023-07-18"
