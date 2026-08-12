@@ -25,7 +25,7 @@ Proprietary enterprise AI engine developed by **ActumAI sp. z o.o.** providing h
 ## 🚀 Quick Start (Local Setup)
 
 ```bash
-git clone [https://github.com/twoj-nick/actumai-core.git](https://github.com/twoj-nick/actumai-core.git)
+git clone [https://github.com/twoj-nick/actumai-core.git](https://github.com/Just1tony/actumai-core.git)
 cd actumai-core
 pip install -r requirements.txt
 uvicorn main:app --reload
