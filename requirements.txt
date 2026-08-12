@@ -1,0 +1,25 @@
+# --- API ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# --- RAG core (LlamaIndex) ---
+llama-index-core>=0.10.50
+llama-index-embeddings-openai>=0.1.10
+llama-index-embeddings-huggingface>=0.2.0
+llama-index-llms-openai>=0.1.25
+llama-index-vector-stores-chroma>=0.1.10
+llama-index-vector-stores-qdrant>=0.2.10
+llama-index-postprocessor-cohere-rerank>=0.1.5
+
+# --- Vector stores ---
+chromadb>=0.5.0
+qdrant-client>=1.9.0
+
+# --- Reranking (lokalny cross-encoder) ---
+sentence-transformers>=3.0.0
+
+# --- Parsing / utils ---
+PyYAML>=6.0.1
+python-dotenv>=1.0.1
