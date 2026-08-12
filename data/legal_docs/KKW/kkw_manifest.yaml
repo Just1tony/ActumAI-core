@@ -1,0 +1,49 @@
+id: code.kkw
+title: Kodeks karny wykonawczy (KKW) — manifest dla RAG
+jurisdiction: PL
+language: pl
+source_type: statute
+canonical_citation: Dz.U. 1997 nr 90 poz. 557
+consolidated_citation: t.j. 2025
+status: obowiązujący
+last_consolidated: '2025-01-01'
+aliases:
+- KKW
+- Kodeks karny wykonawczy
+parts:
+- id: code.kkw.part1
+  title: Część ogólna
+  articles: Art. 1–122
+  path: code_kkw_part1_full.md
+  chunking:
+    strategy: by-article
+    article_anchor_pattern: '## Art. {n}. {#kkw-art-{n}}'
+    separators: '***'
+    hierarchy:
+    - Część
+    - Dział
+    - Rozdział
+- id: code.kkw.part2
+  title: Część szczególna
+  articles: Art. 123–250
+  path: code_kkw_part2_full.md
+  chunking:
+    strategy: by-article
+    article_anchor_pattern: '## Art. {n}. {#kkw-art-{n}}'
+    separators: '***'
+    hierarchy:
+    - Część
+    - Dział
+    - Rozdział
+- id: code.kkw.part3
+  title: Część wojskowa
+  articles: Art. 251–325
+  path: code_kkw_part3_full.md
+  chunking:
+    strategy: by-article
+    article_anchor_pattern: '## Art. {n}. {#kkw-art-{n}}'
+    separators: '***'
+    hierarchy:
+    - Część
+    - Dział
+    - Rozdział
