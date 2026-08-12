@@ -1,5 +1,10 @@
-Polish_Rag.zip
+# Baza danych i pliki wektorowe
+storage/
 *.zip
 *.mdux
-data/
-storage/
+*.db
+*.sqlite
+
+# Pliki środowiskowe
+.env
+__pycache__/
