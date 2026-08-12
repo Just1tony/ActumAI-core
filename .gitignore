@@ -1,1 +1,5 @@
 Polish_Rag.zip
+*.zip
+*.mdux
+data/
+storage/
